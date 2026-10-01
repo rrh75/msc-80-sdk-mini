@@ -11,7 +11,7 @@ Adress decoding also simplified comparing to original design and done by 3NAND g
 This version of board does not provide address buffering, but it is enough to work with onboard chips.
 Communication with terminal program on the host computer is done via com port. Depending of the software and divide ratio it could be up to 19200 kb/s, RTS/CTS handshake, 8n1.
 Since the processor use three voltages to operate, the board has build-in -5V charge pump circuit, but still required +5V and +12V. I used simple step-up converter to get +12V from +5V, but it was mounted outside the board. Power consumption from +5V is about 600 mA.
-##Software
+#Software
 I've tried this board with original firmware, but since it was very old and intended to work with teletype, original monitor have very limited set of commands.
 ![](images/SDK-80_screen.jpg)
 I found nice solution with GW monitor, with small modifications of addresses in source code it is also work and feet in existing ROM.
