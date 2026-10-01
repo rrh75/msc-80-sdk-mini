@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Connector_Dsub)(type KiCad)(uri D:/Projects/PCB/SBC/Z80_sbc/Connector_Dsub)(options "")(descr ""))
+  (lib (name 8080A_sbc_mini)(type KiCad)(uri C:/Temp/PCB/SBC/8080A_sbc_mini)(options "")(descr ""))
+  (lib (name SolderJumper)(type KiCad)(uri ${KIPRJMOD}/SolderJumper)(options "")(descr ""))
+)

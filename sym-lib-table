@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name Timer)(type Legacy)(uri ${KIPRJMOD}/Timer.lib)(options "")(descr ""))
+  (lib (name Interface)(type Legacy)(uri ${KIPRJMOD}/Interface.lib)(options "")(descr ""))
+  (lib (name Interface_UART)(type Legacy)(uri ${KIPRJMOD}/Interface_UART.lib)(options "")(descr ""))
+  (lib (name Memory_EPROM)(type Legacy)(uri ${KIPRJMOD}/Memory_EPROM.lib)(options "")(descr ""))
+  (lib (name Memory_RAM)(type Legacy)(uri ${KIPRJMOD}/Memory_RAM.lib)(options "")(descr ""))
+  (lib (name 8080A_sbc_mini-rescue)(type Legacy)(uri ${KIPRJMOD}/8080A_sbc_mini-rescue.lib)(options "")(descr ""))
+)
